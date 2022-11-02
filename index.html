@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/issTracking.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+     integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+     crossorigin=""/>
+
+     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+     crossorigin=""></script>
+    <title>ISS Tracking Website</title>
+</head>
+<body>
+    <div class="container"> 
+        <h1 class="heading">Where is the ISS?</h1>
+        <div class="showData">
+            Latitude : <span class="lat"></span>&#176<br>
+            Longitude : <span class="long"></span>&#176<br>
+            Velocity : <span class="velo"></span> Kmph
+
+        </div>
+
+        <div id="mapid"></div>
+
+    </div>
+    
+</body>
+
+    <script src="./js/issTracking.js"></script>
+</html>
