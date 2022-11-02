@@ -74,4 +74,4 @@ function onMapClick(e) {
 }
 map.on('click', onMapClick);
 
-setInterval(() => getData(), 10000);
+setInterval(() => getData(), 1000);
